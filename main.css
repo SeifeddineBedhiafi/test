@@ -1,0 +1,41 @@
+body
+{
+background-image: url(https://www.gannett-cdn.com/presto/2018/11/22/PDTF/ed7f06a2-572c-48d3-96ef-4db30bf41798-GettyImages-483817561.jpg?crop=724,407,x0,y9&width=3200&height=1680&fit=bounds);
+
+background-size: 100%;
+}
+div{
+
+   
+    margin-top: 100px;
+  margin-left: 30px;
+}
+.int
+{
+
+   width: 200px;
+   height: 20px;
+}
+
+button{
+
+background-color: white;
+color: #4cd137;
+border: 1px solid #718093;
+width: 200px;
+height: 60px;
+font-size: 20px;
+
+
+border-radius: 6px;
+margin-left: 150px;
+}
+button:hover
+{
+    background-color:#4cd137;
+  color:black;
+}
+
+
+
+

@@ -1,0 +1,109 @@
+body
+{
+background-image: url(http://hdimages.org/wp-content/uploads/2017/03/css-background-image-size1.jpg);
+background-size: 100%;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#7d5fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+    border-radius: 15px;
+    border-radius: 15px;
+    border-radius: 15px;
+
+}
+.sidenav a {
+    padding: 10px 8px 6px 16px;
+    margin-top: 100px;
+    text-decoration: none;
+    font-size: 35px;
+    color:white;
+    display: block;
+
+  }
+  .sidenav a:hover {
+    color:black;
+  }
+  input
+  {
+    width: 200px;
+    height: 35px;
+    margin:20px 50px 10px 10px;
+  }
+button{
+
+    background-color:#7d5fff;
+    color:white;
+    border: 1px solid #718093;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    
+    
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-top: 100px;
+    }
+button:hover
+    {
+        background-color:#ffdd59;
+      color:black;
+    }
+    td 
+    {
+        border: 2px solid white; 
+    }
+    tr{
+      color: white;
+      font-size: 25px;
+    }
+    table, td, th {
+        border: 2px solid #3c40c6;
+        height: 30px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 400px;
+        height: 50px;
+        margin-top: 200px;
+        margin-left: 200px;
+    
+      }
+      #deusieme
+      {
+          display: none;
+          text-align: center;
+      }
+
+      .bmod{
+
+        background-color:#7d5fff;
+        color:white;
+        border: 1px solid #718093;
+        width: 80px;
+        height: 30px;
+        font-size: 20px;
+        
+        
+        border-radius: 6px;
+        margin-left: 10px;
+        margin-top: 10px;
+        }
+    .bmod:hover
+        {
+            background-color:#ffdd59;
+          color:black;
+        }
+
+        .divmodif{
+          text-align: center;
+        }

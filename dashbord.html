@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="dach.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-grid.min.css">
+
+</head>
+
+<body onload="DisplayTodo()">
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 "></div>
+
+
+            <div class="sidenav" id="sidnav">
+                <a onclick="display()" href="#about">Ajout</a>
+                <a onclick="display1()" href="#services">List</a>
+
+                <a type="button" onclick="logout()">Logout</a>
+            </div>
+
+
+            <div class="col-auto "></div>
+            <div id="premiere">
+                <h1>To do</h1><br>
+                <input type="text" value="Taskname" id="task"><br>
+                <input type="date" value="Deadline" id="dead"><br>
+                <button type="button" onclick="save()">Save</button>
+
+            </div>
+            <div id="deusieme">
+            </div>
+
+
+            <div id="divmodif">
+            </div>
+
+
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="main1.js"></script>
+</body>
+
+</html>

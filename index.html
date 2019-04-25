@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+ 
+</head>
+<body>
+
+
+        Username: <input type="text" id="user" onblur="verif()"> <br><br>
+        E-mail   :  <input type="text" id="email" onblur="verifemail()" ><br><br>
+        Password : <input type="text" id="passw" oninput="verifpassw()" ><br><br>
+        <P id="pargh" ></P>
+        Birthday date : <input type="date" id="birth" onblur="verifdate()">
+      
+  
+        
+    <BUtton type="text" id="LocalStorage" onclick="locS()">LocalStorage</BUtton>
+    <p id="msg" ></p>
+
+
+
+        <script src="main.js"></script>
+</body>
+</html>
